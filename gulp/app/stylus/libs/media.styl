@@ -1,0 +1,8 @@
+
+mq(min, max = false)
+    if max
+        @media only screen and (min-width: min) and (max-width: max)
+            {block}
+    else
+        @media only screen and (min-width: min)
+            {block}
